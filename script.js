@@ -25,9 +25,9 @@ function calculo(){
 }
 function carnepp(durations){
   if(durations <= 6){
-    return 400
+    return 500
   } else{
-    return 600
+    return 650
   }
 
 }
@@ -40,8 +40,8 @@ function cervejapp (durations){
 }
 function bebidaspp (durations){
   if( durations <= 6){
-    return 1200
+    return 1000
   } else{
-    return 2000
+    return 1500
   }
 }
